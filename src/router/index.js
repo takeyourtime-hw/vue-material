@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import shouye from '@/components/shouye'
-import HelloWorld from '@/components/HelloWorld'
 import hw from '@/components/hw'
 import hu from '@/components/hu'
 import user from '@/components/user'
