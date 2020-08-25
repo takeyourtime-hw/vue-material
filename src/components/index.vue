@@ -35,7 +35,9 @@
                 <span>材料入场</span>
               </template>
               <el-menu-item-group>
-                <el-menu-item index="2-1">入场验收</el-menu-item>
+                <router-link to="/page/admission" tag="p">
+                  <el-menu-item index="2-1">入场验收</el-menu-item>
+                </router-link>
               </el-menu-item-group>
             </el-submenu>
             <el-submenu index="3">
@@ -43,7 +45,9 @@
                 <span>材料出库</span>
               </template>
               <el-menu-item-group>
-                <el-menu-item index="3-1">材料进退库</el-menu-item>
+                <router-link to="/page/delivery" tag="p">
+                  <el-menu-item index="3-1">材料进退库</el-menu-item>
+                </router-link>
               </el-menu-item-group>
             </el-submenu>
             <el-submenu index="4">
@@ -62,7 +66,9 @@
                 <span>材料盘点</span>
               </template>
               <el-menu-item-group>
-                <el-menu-item index="6-1">仓库材料明细</el-menu-item>
+                <router-link to="/page/cntent" tag="p">
+                  <el-menu-item index="6-1">仓库材料明细</el-menu-item>
+                </router-link>
               </el-menu-item-group>
             </el-submenu>
             <el-submenu index="7">
@@ -71,9 +77,18 @@
                 <span>材料配置</span>
               </template>
               <el-menu-item-group>
-                <el-menu-item index="7-1">供应商配置</el-menu-item>
-                <el-menu-item index="7-2">基础物资库</el-menu-item>
-                <el-menu-item index="7-3">仓库配置</el-menu-item>
+                <router-link to="/page/vendor" tag="p">
+                  <el-menu-item index="7-1">供应商配置</el-menu-item>
+                </router-link>
+
+                <router-link to="/page/basicmaterials" tag="p">
+                  <el-menu-item index="7-2">基础物资库</el-menu-item>
+                </router-link>
+
+                <router-link to="/page/warehouse" tag="p">
+                  <el-menu-item index="7-3">仓库配置</el-menu-item>
+                </router-link>
+
                 <router-link to="/page/pact" tag="p">
                   <el-menu-item index="7-4">合同配置</el-menu-item>
                 </router-link>
